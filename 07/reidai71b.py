@@ -1,0 +1,9 @@
+#reidai71
+item="紳士用ベルト"
+material="パイソン皮"
+quantitiy=36
+print('''出力結果：
+商品の名称:%s
+原材料:%s
+個数:%d'''
+%(item,material,quantitiy))

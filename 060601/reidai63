@@ -1,0 +1,10 @@
+#findmax0b.py
+data=(34.5,43.1,50.2,19.0,23.1,89.3,76.4,32.7,65.3,54.1,43.3)
+ndata=len(data)
+max=0
+imax=0
+for i in range(ndata):
+    if data[i]>max:
+        max=data[i]
+        imax= i
+print("最大値:%.f，インデックス:%d"%(max,imax))
